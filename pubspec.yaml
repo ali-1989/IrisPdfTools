@@ -1,0 +1,22 @@
+name: pdf_tools
+description: A pdf tools package.
+version: 0.0.1
+homepage: https://iris.ir
+
+environment:
+  sdk: ">=2.15.0"
+  flutter: ">=2.15.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.5
+  open_file: ^3.2.1
+  native_pdf_view: ^6.0.0+1
+  advance_pdf_viewer: ^2.0.1           # no Web
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
